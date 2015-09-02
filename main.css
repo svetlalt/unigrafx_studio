@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -11,3 +15,50 @@ body{
 	width: 100%;
 	height: 600px;
 }
+
+#general-section{
+	width: 100%;
+	height: 540px;
+	background-color: #39322f;
+}
+/*
+ 1. Coregirane na vsichki elementi vatre v wrapper-a
+ 2. Da opravq cvetovete - images for web http://www.digitalartsonline.co.uk/features/creative-lifestyle/10-must-know-tips-prepare-images-for-web/
+ 3. Da fix-na background image-a ako vse oshte ima odrqzvaneto na image-a ot gore.
+ */
+#general-wrapper{
+	position: relative;
+	background-image:url('images/info-background.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 780px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#general-wrapper .circle-text{
+	position:relative;
+	top: 435px;
+	text-align: center;
+	font-family: "Impact", serif;
+	font-size: 35px;
+	color: white;
+}
+
+#fx-info{
+	position: absolute;
+	height: 75px;
+	width: 200px;
+} 
+
+#fx-info .icon-info{
+	position:absolute;
+	height: 100px;
+	width: 100px;;
+	border-radius: 50%;
+	border: 5px solid #e5ad5f;
+}
+
+
+
